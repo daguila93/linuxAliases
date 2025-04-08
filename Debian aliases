@@ -1,1 +1,1 @@
-alias up="for i in 1 2 3; do sudo apt update; sudo apt upgrade -y; sudo apt autoremove -y; sudo dpkg --configure -a; done; sudo apt install aptitude -y; sudo aptitude safe-upgrade -y"
+alias up="for i in 1 2 3; do sudo apt update; sudo apt upgrade -y; sudo apt autoremove -y; sudo dpkg --configure -a; done; sudo apt install aptitude -y; sudo aptitude safe-upgrade -y; sudo snap refresh;"
